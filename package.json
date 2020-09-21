@@ -1,0 +1,22 @@
+{
+  "name": "state_machine_playbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "./node_modules/.bin/nodemon --watch 'src' --ext '.ts' --exec 'ts-node src/index'",
+    "start": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "xstate": "^4.13.0"
+  }
+}
